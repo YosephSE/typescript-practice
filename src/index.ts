@@ -1,0 +1,1 @@
+let age: number = 51
