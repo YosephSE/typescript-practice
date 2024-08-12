@@ -1,2 +1,5 @@
 "use strict";
-let age = 51;
+const calculateTax = (income, rate) => {
+    return income * rate;
+};
+//# sourceMappingURL=index.js.map

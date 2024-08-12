@@ -1,1 +1,3 @@
-let age: number = 51
+const calculateTax = (income: number, rate: number): number =>{
+    return income * rate
+}
