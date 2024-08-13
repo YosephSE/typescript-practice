@@ -1,12 +1,9 @@
-let userName: string = "Yoseph"
-let age: number  = 20
+type SorN = string | number | boolean
 
-age = 19
+type user = {name: string, birthDate: number}
 
-const circumferance = (diameter: number): number => {
-    return diameter * Math.PI
+function great(username: user): string{
+    return `Hello, ${username.name}`
 }
 
-let stringAndNumbersArray: (string | number)[] = []
-
-console.log(stringAndNumbersArray)
+great({name: "Yoseph", birthDate: 45})
