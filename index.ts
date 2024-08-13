@@ -7,4 +7,6 @@ const circumferance = (diameter: number): number => {
     return diameter * Math.PI
 }
 
-console.log(circumferance(4))
+let stringAndNumbersArray: (string | number)[] = []
+
+console.log(stringAndNumbersArray)
