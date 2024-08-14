@@ -1,4 +1,5 @@
 "use strict";
-function great(name, birthDate) {
-    return `Hello, ${name}`;
+function great(username) {
+    return `Hello, ${username.name}`;
 }
+console.log(great({ name: "Yoseph", birthDate: 45 }));

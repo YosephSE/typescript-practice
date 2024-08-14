@@ -1,9 +1,10 @@
 type SorN = string | number | boolean
 
-type user = {name: string, birthDate: number}
 
-function great(username: user): string{
+type User = {name: string, birthDate: Date}
+
+function greet(username: User): string{
     return `Hello, ${username.name}`
 }
 
-great({name: "Yoseph", birthDate: 45})
+console.log(greet({name: "Yoseph", birthDate: new Date()}))
