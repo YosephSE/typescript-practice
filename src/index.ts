@@ -1,10 +1,7 @@
-type SorN = string | number | boolean
+//  Generics 
 
-
-type User = {name: string, birthDate: Date}
-
-function greet(username: User): string{
-    return `Hello, ${username.name}`
+function consoleName<T>(name: T): T {
+    return name;
 }
 
-console.log(greet({name: "Yoseph", birthDate: new Date()}))
+console.log(consoleName<string>('Yoseph'));

@@ -1,5 +1,6 @@
 "use strict";
-function great(username) {
-    return `Hello, ${username.name}`;
+//  Generics 
+function consoleName(name) {
+    return name;
 }
-console.log(great({ name: "Yoseph", birthDate: 45 }));
+console.log(consoleName('Yoseph'));
